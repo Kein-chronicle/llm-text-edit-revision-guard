@@ -1,0 +1,39 @@
+{
+  "name": "llm-text-edit-revision-guard",
+  "version": "0.1.1",
+  "description": "Apply AI-proposed text edits only to the exact revision they were written against, with expected-text checks and overlap rejection.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./scripts/edit.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/run.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "ai-agents",
+    "text-editing",
+    "patch",
+    "optimistic-concurrency",
+    "javascript",
+    "esm",
+    "llm",
+    "zero-dependencies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kein-chronicle/llm-text-edit-revision-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kein-chronicle/llm-text-edit-revision-guard/issues"
+  },
+  "homepage": "https://github.com/Kein-chronicle/llm-text-edit-revision-guard#readme"
+}
